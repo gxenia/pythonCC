@@ -5,3 +5,28 @@ python3 program.py < directory/file.txt
 - program.py is the program you are trying to execute
 - directory is the directory where the files with the input are stored
 - MAKE SURE THAT THIS DIRECTORY IS IN THE DIRECTORY OF THE PROGRAM
+
+
+pi@raspberrypi:~/Desktop/python $ python3 polynomials.py < input/input0.txt
+6
+pi@raspberrypi:~/Desktop/python $ python3 polynomials.py < input/input1.txt
+7
+pi@raspberrypi:~/Desktop/python $ python3 polynomials.py < input/input2.txt
+6
+pi@raspberrypi:~/Desktop/python $ python3 polynomials.py < input/input3.txt
+7
+pi@raspberrypi:~/Desktop/python $ python3 polynomials.py < input/input4.txt
+7
+pi@raspberrypi:~/Desktop/python $ python3 polynomials.py < input/input5.txt
+9
+pi@raspberrypi:~/Desktop/python $ python3 polynomials.py < input/input6.txt
+10
+pi@raspberrypi:~/Desktop/python $ python3 polynomials.py < input/input7.txt
+11
+pi@raspberrypi:~/Desktop/python $ python3 polynomials.py < input/input8.txt
+43
+pi@raspberrypi:~/Desktop/python $ python3 polynomials.py < input/input9.txt
+14
+pi@raspberrypi:~/Desktop/python $ python3 polynomials.py < input/input10.txt
+bash: input/input10.txt: File o directory non esistente
+pi@raspberrypi:~/Desktop/python $ 

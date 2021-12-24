@@ -1,0 +1,7 @@
+To take the input for a program from a text file you need to use this command:
+
+python3 program.py < directory/file.txt
+
+- program.py is the program you are trying to execute
+- directory is the directory where the files with the input are stored
+- MAKE SURE THAT THIS DIRECTORY IS IN THE DIRECTORY OF THE PROGRAM

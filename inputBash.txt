@@ -30,3 +30,20 @@ pi@raspberrypi:~/Desktop/python $ python3 polynomials.py < input/input9.txt
 pi@raspberrypi:~/Desktop/python $ python3 polynomials.py < input/input10.txt
 bash: input/input10.txt: File o directory non esistente
 pi@raspberrypi:~/Desktop/python $ 
+
+
+pi@raspberrypi:~/Desktop/python $ cd output/
+pi@raspberrypi:~/Desktop/python/output $ ls
+output0.txt  output2.txt  output4.txt  output6.txt  output8.txt
+output1.txt  output3.txt  output5.txt  output7.txt  output9.txt
+pi@raspberrypi:~/Desktop/python/output $ cat output*.txt
+6
+7
+6
+7
+7
+9
+10
+11
+3
+14

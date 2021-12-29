@@ -1,9 +1,10 @@
 def findMaxofMin(v, n, size):
     minimum = []
+    
     for i in range(n):
-        print(i, size, v[i:size])
         minimum.append(min(v[i:size]))
         size+=1
+        if size > n: break
     
     return max(minimum)
 

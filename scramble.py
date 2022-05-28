@@ -2,6 +2,7 @@ from itertools import permutations
 
 def main():
     message = "l_4Tnb_3cnnbcg3r3slCCm4Id__gb4u}ct{0mr3sds"
+    solution = []
     key = list(range(7))
     comb = [i for i in permutations(key)]
     for c in comb:
@@ -9,8 +10,10 @@ def main():
         flag = unscramble(message, c)
         print(flag, ''.join(flag[:4]))
         if ''.join(flag[:4]) == "CCIT":
+            solution.append((flag, c))
             print(flag)
-            
+    print(solution)
+    
 def scramble(message, key):
     W = len(key)
     while len(message) % (2*W):

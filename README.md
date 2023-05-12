@@ -1,2 +1,4 @@
 # pythonCC
-Here there are my solutions to the problems of the cyberchallenge
+Here you'll find my solutions to the admission problems of CyberChallenge.IT
+
+
